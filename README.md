@@ -45,6 +45,7 @@ request({
 	agentOptions: {
 		socksHost: 'my-tor-proxy-host', // Defaults to 'localhost'.
 		socksPort: 9050, // Defaults to 1080.
+		timeout: 10000, // Defaults to 10000 ms
 
 		// Optional credentials
 		socksUsername: 'proxyuser',
